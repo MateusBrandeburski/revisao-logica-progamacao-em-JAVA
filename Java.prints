@@ -1,0 +1,25 @@
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		int b, B, h, arena;
+		b = 6;
+		B = 8;
+		h = 5;
+		arena = (b + B) / 2 * h;
+		System.out.println(arena);
+		--------------------------------------------------------------------------------------------------------------
+	
+		double a;
+		int b;
+		
+		a = 5.0;
+		b = (int) a;
+		
+		System.out.println(b);
+    ------------------------------------------------------------------------------------------------------------
+    
+		
+		
