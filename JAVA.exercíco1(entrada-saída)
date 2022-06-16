@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int E1, E2, E3, E4, E5, E6, SOMA;
+		E1 = sc.nextInt();
+		E2 = sc.nextInt();
+		SOMA = E1 + E2;
+		System.out.println("SOMA = " + SOMA);
+		
+		E3 = sc.nextInt();
+		E4 = sc.nextInt();
+		SOMA = E3 + E4;
+		System.out.println("SOMA = " + SOMA);
+		
+		E5 = sc.nextInt();
+		E6 = sc.nextInt();
+		SOMA = E5 + E6;
+		System.out.println("SOMA = " + SOMA);	
+    
+	}
+
+}
