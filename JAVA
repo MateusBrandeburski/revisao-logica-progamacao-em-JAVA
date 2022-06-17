@@ -1,0 +1,30 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int hora;
+		
+		System.out.println("Quantas Horas?");
+		hora = sc.nextInt();
+		
+		if(hora >= 5 && hora < 13) {
+			System.out.println("Bom Dia!");
+		}
+		else {
+			if (hora >= 13 && hora <= 18) {
+			System.out.println("Boa Tarde!");
+			}
+			else {
+				System.out.println("Boa Noite");
+			}
+		}
+	}
+}
+			
