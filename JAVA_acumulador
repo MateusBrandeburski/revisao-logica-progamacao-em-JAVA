@@ -1,0 +1,39 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int codigo = sc.nextInt();
+		int qtd = sc.nextInt();
+		double acumulador = 0;
+		
+		if (codigo == 1) {
+			acumulador = qtd * 4.00;
+		}
+		else if (codigo == 2) {
+			acumulador = qtd * 4.50;
+			
+		}
+		else if (codigo == 3) {
+			acumulador = qtd * 5.00;
+		}
+		else if (codigo == 4) {
+			acumulador = qtd * 2.00;
+		}
+		else if (codigo == 5) {
+			acumulador = qtd * 1.50;
+		}
+		else {
+			System.out.println("Código invalido.");				
+		}
+		
+		System.out.printf("Total: %.2f%n", acumulador);		
+	}
+}
