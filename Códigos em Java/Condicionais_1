@@ -1,0 +1,37 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int dia = sc.nextInt();
+		String resposta;
+		
+		if (dia == 1) {
+			resposta = "domingo";
+		}
+		else if (dia == 2) {
+			resposta = "segunda";
+		}
+		else if (dia == 3) {
+			resposta = "terça";
+		}
+		else if (dia == 4) {
+			resposta = "quarta";
+		}
+		else if (dia == 5) {
+			resposta = "quinta";
+		}
+		else if (dia == 6) {
+			resposta = "sexta";
+		}
+		else if (dia == 7) {
+			resposta = "sábado";
+		}
+		else {
+			resposta = "inválido";
+		}
+		System.out.println("Dia da semana: " + resposta);
