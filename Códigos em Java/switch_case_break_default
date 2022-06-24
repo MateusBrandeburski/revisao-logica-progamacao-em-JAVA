@@ -1,0 +1,53 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int dia = sc.nextInt();
+		String resposta;
+		
+		switch (dia) {
+		case 1:
+			resposta = "domingo";
+			break;
+		
+	
+		case 2: 
+			resposta = "segunda";
+			break;
+		
+	
+		case 3:
+			resposta = "terça";
+			break;
+		
+		
+		case 4:
+			resposta = "quarta";
+			break;
+		
+	
+		case 5:
+			resposta = "quinta";
+			break;
+		
+
+		case 6:
+			resposta = "sexta";
+			break;
+		
+
+		case 7:
+			resposta = "sábado";
+			break;
+		
+		default:
+			resposta = "inválido";
+		}
+		System.out.println("Dia da semana: " + resposta);
+	}
+}
